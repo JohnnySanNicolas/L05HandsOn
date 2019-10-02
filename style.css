@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    color: lightgray;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+}
+
+.header {
+    padding: 20px 0px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;    
+}
+
+.images-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 25px 45px;
+}
+
+.images-item {
+    margin: 10px 15px;
+}
